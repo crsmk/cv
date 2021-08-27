@@ -1,0 +1,110 @@
+
+body {
+background-color:#EEEEEE;
+font-family: 'Noto Sans', sans-serif;
+font-size: 1.2rem;
+font-weight: 600;
+color: #230444;
+}
+
+h1 {
+  font-family: 'Baskervville', serif;
+  color: #810034;
+  margin: 0 auto 0 0;
+}
+
+h2 {
+  margin-top: 8px;
+}
+
+h3, p {
+  margin: 8px 0 25px;
+}
+
+h3:hover {
+  color: #FAFF00
+}
+
+hr {
+  border: dotted #BD4B4B 6px;
+  border-bottom: none;
+  width: 15%;
+  margin: 60px auto;
+}
+
+table {
+  width: 30%;
+}
+
+a{
+  color: #EEEEEE;
+  margin: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  }
+a:hover {
+  color: #BD4B4B;
+}
+
+
+.top-flower{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 300px;
+}
+
+.box {
+ position: relative;
+ width: 50%;
+ float: left;
+ height: 500px; /*Altura da linha*/
+}
+
+.linha-vertical {
+ border-left: 2px solid;/* Adiciona borda esquerda na div como se fosse uma linha.*/
+ box-sizing: border-box;
+ height: 800px;
+}
+
+.margem-right {
+ margin-left: 250px;
+}
+
+.margem-left {
+  margin-left: 50px;
+}
+
+.name {
+  font-size: 50px;
+}
+
+.bottom-container {
+  position: absolute;
+  background-color: #810034;
+  text-align: center;
+  padding: 50px 0 50px;
+  margin-bottom: 100px;
+  left: 0;
+  right: 0;
+}
+
+.photo-size{
+margin-top: 100px;
+max-width:400px;
+width: auto;
+height: auto;
+}
+
+.texto {
+  width: 550px;
+  line-height: 2rem;
+}
+
+.cellSpace {
+  line-height: 2;
+}
+
+.footer-end {
+  color: #EEEEEE;
+}
